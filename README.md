@@ -79,6 +79,8 @@ Then click Add Exception and the next pop up message will ask for confirmation:
 
 ![Confirm](pictures/Confirm.png?raw=true "Confirm")
 
+Click 'Confirm Security Exception' and the browser will reload.
+
 ## Running the front end
 Now, to run the application open a new terminal window and run the following commands one by one:
 `````
