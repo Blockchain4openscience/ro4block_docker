@@ -37,6 +37,10 @@ To download our docker volume with all the files necessary to deploy our busines
 `````
 docker run -it --net="host" chechocardona/ro4block:1.0 /bin/bash
 `````
+If you're running Docker on Windows or Mac try the next line instead:
+`````
+docker run -it chechocardona/ro4block:1.0 host.docker.internal
+`````
 2. Next we will import our business network card into the wallet running on the interactive shell:
 `````
 cd fabric-dev-servers/certificates/
